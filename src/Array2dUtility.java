@@ -8,7 +8,7 @@ public class Array2dUtility {
 
     public static void print(int[][] array){
         for(int[] row : array){
-            for(int[] num : array){
+            for(int num : row){
                 System.out.println(num + " ");
             }
             System.out.println();
